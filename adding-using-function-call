@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "This program is used to add numbers using a function by taking user input"
+
+read -r -p "Enter the first number : " num1 
+read -r -p "Enter the second number: " num2
+
+function sum_numbers {
+	sum=$((num1+num2))
+}
+
+#This is where we are calling the function
+
+sum_numbers
+echo "sum of the numbers is $sum"
