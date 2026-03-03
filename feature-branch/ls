@@ -1,4 +1,4 @@
  ls -R /
 
 
-echo " all the root files should be listed now $USER
+echo " all the root files should be listed now $USER"
